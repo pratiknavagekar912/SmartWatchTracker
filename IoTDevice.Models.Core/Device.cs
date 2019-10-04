@@ -12,5 +12,6 @@ namespace IoTDevice.Models.Core
         public string MacId { get; set; } //Device unqiue MAC id 
         public string RegistrationId { get; set; } //Unique Guid        
         public DateTimeOffset RegistrationTime { get; set; }
+        public string RegisterEmail { get; set; } //User email Id
     }
 }
